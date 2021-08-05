@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Exo+2:ital,wght@1,300&family=Libre+Franklin:wght@200&display=swap');
+
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Exo 2', sans-serif;  this one for more accurate
+font-family: 'Libre Franklin', sans-serif;
+*/
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(37, 34, 194, 0.685);
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+  
+    
+}
+.header{
+    padding: 25px 40px;
+    margin-left: 60px;
+}
+
+.sub-content{
+    font-size: 14px;
+}
+.logo-news{
+    margin-top: 70px;
+    width: 70px;
+    border-radius: 8px;
+}
+.container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.newsletter-form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+}
+.fname, .lname, .email, .newsletter-form-btn{
+    padding: 12px 20px;
+    font-size: 20px;
+    outline: none;
+}
+.fname{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid black;
+}
+.email{
+    margin-top: -1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid black;
+}.lname{
+    border-radius: 0px;
+    margin-top: -1px;
+    border: 1px solid black;
+}
+.newsletter-form-btn{
+    width: 150px;
+    margin-top: 40px;
+    outline: none;
+    background-color: blue;
+    color:white;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 700;
+}
+.newsletter-form-btn:hover{
+    background-color: black;
+}
+footer{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(90, 28, 197);
+}
+.copyright{
+    color: white;
+    text-align: center;
+}
+/*
+border:2px solid red;
+*/
