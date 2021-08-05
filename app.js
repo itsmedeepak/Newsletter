@@ -41,8 +41,6 @@ app.post('/', (req, res) => {
     }
     const request = https.request(url, options, function (response) {
         response.on("data", function (data) {
-            console.log(JSON.parse(data));
-            console.log(data.status)
         })
     })
     console.log()
